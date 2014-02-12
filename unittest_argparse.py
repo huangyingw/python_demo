@@ -33,7 +33,6 @@ def main():
     parser.add_argument("y", type=int, help="the exponent")
     args = parser.parse_args()
     answer = args.x ** args.y
-
     if args.quiet:
         print answer
     elif args.verbose:
