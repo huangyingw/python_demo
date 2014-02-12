@@ -1,2 +1,3 @@
 #!/bin/bash
-/Users/yhuang/python_demo/argparse_demo.py
+./unittest_argparse.py 1 2 3 \
+  && ~/gitrc/gci.sh
