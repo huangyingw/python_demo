@@ -4,7 +4,9 @@
 import unittest
 import helpspot
 
+
 class TestHelpSpot(unittest.TestCase):
+
     "A few simple tests for HelpSpot"
 
     def __init__(self, testname, path, user, pword):
@@ -34,4 +36,3 @@ if __name__ == '__main__':
     suite.addTest(TestHelpSpot("test_unknown_method", path, user, pword))
 
     unittest.TextTestRunner().run(suite)
-
