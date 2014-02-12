@@ -11,6 +11,9 @@ class TestHelpSpot(unittest.TestCase):
 
     def __init__(self, testname, path, user, pword):
         super(TestHelpSpot, self).__init__(testname)
+        print path
+        print user
+        print pword
 
     def test_version(self):
         print 'do test_version'
