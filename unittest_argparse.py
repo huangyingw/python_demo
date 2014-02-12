@@ -13,10 +13,10 @@ class TestHelpSpot(unittest.TestCase):
         super(TestHelpSpot, self).__init__(testname)
 
     def test_version(self):
-      print 'do test_version'
+        print 'do test_version'
 
     def test_get_with_param(self):
-      print 'do test_get_with_param'
+        print 'do test_get_with_param'
 
 
 def main():
